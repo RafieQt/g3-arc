@@ -1,0 +1,92 @@
+/* common styles */
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.orange-btn{
+    background-color: #FF900E;
+    color: white;
+    border: none;
+    padding: 20px 25px;
+    border-radius: 8px;
+    font-size: 1.5 rem;
+    font-weight: 600;
+    
+}
+
+.orange-text{
+    color: #FF900E;
+}
+
+.text-gray{
+    color: rgba(66, 66, 66, 1);
+}
+
+.text-light-gray{
+    color: rgba(114, 114, 114, 1);
+}
+
+.display-flex{
+    display: flex;
+}
+
+/* header styles */
+
+.brand{
+    font-weight: 700;
+    font-size: 2.7rem;
+}
+
+.bg-head{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links{
+    list-style: none;
+    
+}
+
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav-item{
+    margin-right: 30px;
+}
+
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.banner-content{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.banner-title{
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.banner-img{
+    width: 100%;
+}
+
+
+@media screen and (max-width: 576px) {
+    .navbar, .nav-links{
+        flex-direction: column;
+    }
+}
